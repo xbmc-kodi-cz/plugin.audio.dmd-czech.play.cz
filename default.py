@@ -9,9 +9,9 @@ import xbmcplugin,xbmcgui,xbmcaddon
 
 __baseurl__ = 'http://api.play.cz/xml'
 _UserAgent_ = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'
-addon = xbmcaddon.Addon('plugin.audio.dmd-czech.play.cz')
+addon = xbmcaddon.Addon('plugin.audio.play.cz')
 profile = xbmc.translatePath(addon.getAddonInfo('profile'))
-__settings__ = xbmcaddon.Addon(id='plugin.audio.dmd-czech.play.cz')
+__settings__ = xbmcaddon.Addon(id='plugin.audio.play.cz')
 __lang__   = addon.getLocalizedString
 home = __settings__.getAddonInfo('path')
 	  
